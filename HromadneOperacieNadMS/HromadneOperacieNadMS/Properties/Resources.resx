@@ -46,7 +46,7 @@
     
     mimetype: application/x-microsoft.net.object.binary.base64
     value   : The object must be serialized with 
-            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
     
     mimetype: application/x-microsoft.net.object.soap.base64
@@ -60,6 +60,7 @@
             : and then encoded with base64 encoding.
     -->
   <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
     <xsd:element name="root" msdata:IsDataSet="true">
       <xsd:complexType>
         <xsd:choice maxOccurs="unbounded">
@@ -68,9 +69,10 @@
               <xsd:sequence>
                 <xsd:element name="value" type="xsd:string" minOccurs="0" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" />
+              <xsd:attribute name="name" use="required" type="xsd:string" />
               <xsd:attribute name="type" type="xsd:string" />
               <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="assembly">
@@ -85,9 +87,10 @@
                 <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
                 <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
               </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
               <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
               <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
             </xsd:complexType>
           </xsd:element>
           <xsd:element name="resheader">
@@ -109,9 +112,361 @@
     <value>2.0</value>
   </resheader>
   <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Autor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\Autor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ComputerDetails1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\ComputerDetails\ComputerDetails1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ComputerDetails2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\ComputerDetails\ComputerDetails2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ComputerDetails3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\ComputerDetails\ComputerDetails3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ComputerDetails4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\ComputerDetails\ComputerDetails4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ComputerDetails5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\ComputerDetails\ComputerDetails5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ComputerDetails6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\ComputerDetails\ComputerDetails6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ComputerDetails7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\ComputerDetails\ComputerDetails7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ComputerDetails8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\ComputerDetails\ComputerDetails8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ComputerDetails9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\ComputerDetails\ComputerDetails9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask17.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask18.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask19.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask25.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask26.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask27.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask28.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask29.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask30.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask31.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask32.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask33.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask34.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask35.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask36.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask37.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask38.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask39.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask40.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask41.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask42.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask43.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask44.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask45.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CreateTask9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\CreateTask\CreateTask9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeleteTask1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\DeleteTask\DeleteTask1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeleteTask2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\DeleteTask\DeleteTask2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeleteTask3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\DeleteTask\DeleteTask3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeleteTask4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\DeleteTask\DeleteTask4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DeleteTask5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\DeleteTask\DeleteTask5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditTask1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\EditTask\EditTask1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditTask2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\EditTask\EditTask2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditTask3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\EditTask\EditTask3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditTask4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\EditTask\EditTask4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditTask5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\EditTask\EditTask5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditTask6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\EditTask\EditTask6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients10.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients11.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients12.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients14.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients15.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients17.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients18.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients19.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients20.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients21.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients23.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients25.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients26.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients27.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients28.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients29.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients30.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients31.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients32.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients33.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients34.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients35.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients36.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients37.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients38.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients39.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients40.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients41.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients42.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients43.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients44.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients45.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients46.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients47.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients48.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients49.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients50.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients51" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients51.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients8.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpdateClients9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Obr\UpdateClients\UpdateClients9.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

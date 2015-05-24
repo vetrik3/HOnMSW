@@ -38,6 +38,7 @@ namespace HromadneOperacieNadMS
         public string RunTaskName;
         public string ReceiveMacAddress;
         public int WAITINGTIME;
+        public bool onload;
 
         const int EMPTY = 0;
         const int Online = 0;
@@ -181,6 +182,7 @@ namespace HromadneOperacieNadMS
             listViewOptions.Select();
             CheckDirectories();
             Create_Connections();
+            onload = true;
         }
 
         private void listViewOptions_SelectedIndexChanged(object sender, EventArgs e)
@@ -768,6 +770,15 @@ namespace HromadneOperacieNadMS
             Destroy_Connections();
         }
 
+        public void WriteToTaskDetailsFile(List<string> Writer, string name)
+        {
+            if (!(Directory.Exists(@".\TaskDetails\")))
+            {
+                Directory.CreateDirectory(@".\TaskDetails\");
+            }
+            File.WriteAllLines(name, Writer.ToArray());
+        }
+
         private void RefreshTaskDetails()
         {
             listViewTaskExecutions.Items.Clear();
@@ -779,12 +790,13 @@ namespace HromadneOperacieNadMS
                     try
                     {
                         List<string> textLines = File.ReadAllLines(taskDetails).ToList();
-                        foreach (string line in textLines)
+                        for (int i = 0; i <textLines.Count; i++)
                         {
+                            string line = textLines[i];
                             if (line.Contains("DETAILS||"))
                             {
                                 ListViewItem Task_DETAILS = new ListViewItem();
-                                string[] splitter = line.Split(new string[] { "||" }, StringSplitOptions.None);
+                                string[] splitter = line.Split(new string[] { "||" }, StringSplitOptions.None);                                
                                 Task_DETAILS.ImageIndex = Convert.ToInt16(splitter[1]);
                                 Task_DETAILS.SubItems.Add(Path.GetFileName(taskDetails));
                                 Task_DETAILS.SubItems.Add(splitter[2]);
@@ -794,12 +806,22 @@ namespace HromadneOperacieNadMS
                                 }
                                 else
                                 {
-                                    Task_DETAILS.SubItems.Add("WORKING");
+                                    if (onload)
+                                    {
+                                        line = splitter[0] + "||1||" + splitter[2] + "||" + DateTime.Now.ToString() + "||" + splitter[4] + "||" + splitter[5];
+                                        textLines[i] = line;
+                                        WriteToTaskDetailsFile(textLines, taskDetails);
+                                    }
+                                    else
+                                    {
+                                        Task_DETAILS.SubItems.Add("WORKING");
+                                    }
                                 }
                                 Task_DETAILS.SubItems.Add(splitter[4]);
                                 Task_DETAILS.SubItems.Add(splitter[5]);
 
                                 listViewTaskExecutions.Items.Add(Task_DETAILS);
+                                break;
                             }
                         }
                     }
@@ -1000,7 +1022,8 @@ namespace HromadneOperacieNadMS
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Autor newDialog = new Autor();
+            newDialog.ShowDialog();
         }
 
         private void updateClientsToolStripMenuItem_Click(object sender, EventArgs e)
@@ -1107,6 +1130,12 @@ namespace HromadneOperacieNadMS
                 Directory.CreateDirectory(@".\Tasks\");
             }
             File.WriteAllLines(@".\Tasks\" + Writer[0], Writer.ToArray());
+        }
+
+        private void pomocToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Help newDialog = new Help();
+            newDialog.ShowDialog();
         }
     }
 }

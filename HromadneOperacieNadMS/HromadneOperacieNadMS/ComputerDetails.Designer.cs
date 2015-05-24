@@ -66,6 +66,7 @@
             this.ClientSize = new System.Drawing.Size(670, 412);
             this.Controls.Add(this.lstDisplayHardware);
             this.Name = "ComputerDetails";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ComputerDetails";
             this.Load += new System.EventHandler(this.ComputerDetails_Load);
             this.ResumeLayout(false);

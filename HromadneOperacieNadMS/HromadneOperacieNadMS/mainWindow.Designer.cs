@@ -30,10 +30,10 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindow));
-            System.Windows.Forms.ListViewItem listViewItem3 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "Úlohy"}, 0);
-            System.Windows.Forms.ListViewItem listViewItem4 = new System.Windows.Forms.ListViewItem(new string[] {
+            System.Windows.Forms.ListViewItem listViewItem2 = new System.Windows.Forms.ListViewItem(new string[] {
             "",
             "Počítače"}, 1);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -73,6 +73,7 @@
             this.timerComputersStatusReload = new System.Windows.Forms.Timer(this.components);
             this.timerReloadTaskDetails = new System.Windows.Forms.Timer(this.components);
             this.timerReloadTasks = new System.Windows.Forms.Timer(this.components);
+            this.pomocToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.contextMenuStripTask.SuspendLayout();
             this.contextMenuStripExecutedTasks.SuspendLayout();
@@ -92,7 +93,8 @@
             // 
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.updateClientsToolStripMenuItem,
-            this.aboutToolStripMenuItem});
+            this.aboutToolStripMenuItem,
+            this.pomocToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             this.helpToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.helpToolStripMenuItem.Text = "Pomoc";
@@ -162,8 +164,8 @@
             this.listViewOptions.FullRowSelect = true;
             this.listViewOptions.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.listViewOptions.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
-            listViewItem3,
-            listViewItem4});
+            listViewItem1,
+            listViewItem2});
             this.listViewOptions.Location = new System.Drawing.Point(12, 27);
             this.listViewOptions.MultiSelect = false;
             this.listViewOptions.Name = "listViewOptions";
@@ -372,6 +374,13 @@
             this.timerReloadTasks.Enabled = true;
             this.timerReloadTasks.Tick += new System.EventHandler(this.timerRealoadTasks_Tick);
             // 
+            // pomocToolStripMenuItem
+            // 
+            this.pomocToolStripMenuItem.Name = "pomocToolStripMenuItem";
+            this.pomocToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.pomocToolStripMenuItem.Text = "Pomoc";
+            this.pomocToolStripMenuItem.Click += new System.EventHandler(this.pomocToolStripMenuItem_Click);
+            // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -438,6 +447,7 @@
         private System.Windows.Forms.Timer timerReloadTasks;
         public System.Windows.Forms.Timer timerReloadTaskDetails;
         private System.Windows.Forms.ToolStripMenuItem stopToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem pomocToolStripMenuItem;
 
     }
 }

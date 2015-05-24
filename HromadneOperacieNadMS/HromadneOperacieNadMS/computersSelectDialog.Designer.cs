@@ -34,9 +34,9 @@
             this.computerStatusColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.computerNameColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.computerMacAdressColumn = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.imageListStatusComputer = new System.Windows.Forms.ImageList(this.components);
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.imageListStatusComputer = new System.Windows.Forms.ImageList(this.components);
             this.SuspendLayout();
             // 
             // listViewComputers
@@ -72,6 +72,14 @@
             this.computerMacAdressColumn.Text = "Mac Adresa";
             this.computerMacAdressColumn.Width = 184;
             // 
+            // imageListStatusComputer
+            // 
+            this.imageListStatusComputer.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListStatusComputer.ImageStream")));
+            this.imageListStatusComputer.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageListStatusComputer.Images.SetKeyName(0, "Connected.ico");
+            this.imageListStatusComputer.Images.SetKeyName(1, "Disconected.ico");
+            this.imageListStatusComputer.Images.SetKeyName(2, "Working.ico");
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(354, 302);
@@ -92,14 +100,6 @@
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // imageListStatusComputer
-            // 
-            this.imageListStatusComputer.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageListStatusComputer.ImageStream")));
-            this.imageListStatusComputer.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageListStatusComputer.Images.SetKeyName(0, "Connected.ico");
-            this.imageListStatusComputer.Images.SetKeyName(1, "Disconected.ico");
-            this.imageListStatusComputer.Images.SetKeyName(2, "Working.ico");
-            // 
             // computersSelectDialog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -109,6 +109,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.listViewComputers);
             this.Name = "computersSelectDialog";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "computersSelectDialog";
             this.Load += new System.EventHandler(this.computersSelectDialog_Load);
             this.ResumeLayout(false);

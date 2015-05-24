@@ -90,6 +90,7 @@
             this.buttonHelp.TabIndex = 2;
             this.buttonHelp.Text = "Pomoc";
             this.buttonHelp.UseVisualStyleBackColor = true;
+            this.buttonHelp.Click += new System.EventHandler(this.buttonHelp_Click);
             // 
             // buttonClose
             // 

@@ -420,5 +420,11 @@ namespace HromadneOperacieNadMS
         {
             label4.Text = trackBarWaitingTime.Value.ToString();
         }
+
+        private void buttonHelp_Click(object sender, EventArgs e)
+        {
+            Help newDialog = new Help();
+            newDialog.ShowDialog();
+        }
     }
 }

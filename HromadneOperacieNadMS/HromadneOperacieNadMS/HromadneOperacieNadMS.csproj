@@ -11,6 +11,7 @@
     <AssemblyName>HromadneOperacieNadMS</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -23,7 +24,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -62,6 +62,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Autor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Autor.Designer.cs">
+      <DependentUpon>Autor.cs</DependentUpon>
+    </Compile>
     <Compile Include="ComputerDetails.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +84,12 @@
     <Compile Include="FilePiece.cs" />
     <Compile Include="FileStreamer_UDP.cs" />
     <Compile Include="FileStreamer.cs" />
+    <Compile Include="Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
+    </Compile>
     <Compile Include="mainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,11 +113,17 @@
     </Compile>
     <Compile Include="TCP_UNICAST.cs" />
     <Compile Include="UDP_MULTICAST.cs" />
+    <EmbeddedResource Include="Autor.resx">
+      <DependentUpon>Autor.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ComputerDetails.resx">
       <DependentUpon>ComputerDetails.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="computersSelectDialog.resx">
       <DependentUpon>computersSelectDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mainWindow.resx">
       <DependentUpon>mainWindow.cs</DependentUpon>
@@ -118,6 +136,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="TaskDetails.resx">
       <DependentUpon>TaskDetails.cs</DependentUpon>
@@ -154,6 +173,357 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\Autor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask30.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask36.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask37.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask38.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask39.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask40.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask42.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask43.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask44.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\CreateTask\CreateTask45.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\EditTask\EditTask1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\EditTask\EditTask2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\EditTask\EditTask3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\EditTask\EditTask4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\EditTask\EditTask5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\EditTask\EditTask6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\DeleteTask\DeleteTask1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\DeleteTask\DeleteTask2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\DeleteTask\DeleteTask3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\DeleteTask\DeleteTask4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\DeleteTask\DeleteTask5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\ComputerDetails\ComputerDetails1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\ComputerDetails\ComputerDetails2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\ComputerDetails\ComputerDetails3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\ComputerDetails\ComputerDetails4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\ComputerDetails\ComputerDetails5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\ComputerDetails\ComputerDetails6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\ComputerDetails\ComputerDetails7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\ComputerDetails\ComputerDetails8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\ComputerDetails\ComputerDetails9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients10.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients13.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients16.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients22.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients23.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients24.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients25.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients26.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients27.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients28.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients30.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients34.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients35.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients36.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients37.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients38.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients39.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients40.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients41.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients42.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients43.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients44.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients45.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients46.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients47.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients48.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients49.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients50.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Obr\UpdateClients\UpdateClients51.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

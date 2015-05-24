@@ -1,72 +1,18 @@
-c:\users\tomasve\documents\visual studio 2012\Projects\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.exe.config
-c:\users\tomasve\documents\visual studio 2012\Projects\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.exe
-c:\users\tomasve\documents\visual studio 2012\Projects\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.pdb
-c:\users\tomasve\documents\visual studio 2012\Projects\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.csprojResolveAssemblyReference.cache
-c:\users\tomasve\documents\visual studio 2012\Projects\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.MainWindow.resources
-c:\users\tomasve\documents\visual studio 2012\Projects\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.Properties.Resources.resources
-c:\users\tomasve\documents\visual studio 2012\Projects\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.csproj.GenerateResource.Cache
-c:\users\tomasve\documents\visual studio 2012\Projects\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.exe
-c:\users\tomasve\documents\visual studio 2012\Projects\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.pdb
-c:\users\tomasve\documents\visual studio 2012\Projects\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.TaskOptions.resources
-c:\users\tomasve\documents\visual studio 2012\Projects\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.TaskDetails.resources
-c:\users\tomasve\documents\visual studio 2012\Projects\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\WaitWindow.dll
-c:\users\tomasve\documents\visual studio 2012\Projects\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\WaitWindow.pdb
-C:\BC\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.exe.config
-C:\BC\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.exe
-C:\BC\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.pdb
-C:\BC\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.exe
-C:\BC\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.pdb
-C:\BC\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.MainWindow.resources
-C:\BC\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.Properties.Resources.resources
-C:\BC\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.TaskDetails.resources
-C:\BC\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.TaskOptions.resources
-C:\BC\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.csproj.GenerateResource.Cache
-C:\BC\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.computersSelectDialog.resources
-C:\BC\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.csprojResolveAssemblyReference.cache
-C:\BC\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.ComputerDetails.resources
-C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.exe.config
-C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.exe
-C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.pdb
-C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.exe
-C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.pdb
-C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\WaitWindow.dll
-C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\WaitWindow.pdb
-C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.csprojResolveAssemblyReference.cache
-C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.ComputerDetails.resources
-C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.computersSelectDialog.resources
-C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.MainWindow.resources
-C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.Properties.Resources.resources
-C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.TaskDetails.resources
-C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.TaskOptions.resources
-C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.csproj.GenerateResource.Cache
-C:\BC\Ucebna08_Nahravky\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.exe.config
-C:\BC\Ucebna08_Nahravky\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.exe
-C:\BC\Ucebna08_Nahravky\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.pdb
-C:\BC\Ucebna08_Nahravky\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.exe
-C:\BC\Ucebna08_Nahravky\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.pdb
-C:\BC\Ucebna08_Nahravky\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\WaitWindow.pdb
-C:\BC\Ucebna08_Nahravky\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.csprojResolveAssemblyReference.cache
-C:\BC\Ucebna08_Nahravky\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.ComputerDetails.resources
-C:\BC\Ucebna08_Nahravky\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.computersSelectDialog.resources
-C:\BC\Ucebna08_Nahravky\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.MainWindow.resources
-C:\BC\Ucebna08_Nahravky\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.Properties.Resources.resources
-C:\BC\Ucebna08_Nahravky\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.TaskDetails.resources
-C:\BC\Ucebna08_Nahravky\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.TaskOptions.resources
-C:\BC\Ucebna08_Nahravky\HromadneOperacieNadMS\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.csproj.GenerateResource.Cache
-C:\BC\InstallCD\Zdrojové súbory\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.exe.config
-C:\BC\InstallCD\Zdrojové súbory\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.exe
-C:\BC\InstallCD\Zdrojové súbory\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.pdb
 C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.exe.config
-C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.exe
-C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.pdb
 C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.exe
 C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.pdb
+C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.exe.CodeAnalysisLog.xml
+C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\HromadneOperacieNadMS.exe.lastcodeanalysissucceeded
 C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\bin\Debug\WaitWindow.pdb
 C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.csprojResolveAssemblyReference.cache
+C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.Autor.resources
 C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.ComputerDetails.resources
 C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.computersSelectDialog.resources
+C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.Help.resources
 C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.MainWindow.resources
 C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.Properties.Resources.resources
 C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.TaskDetails.resources
 C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.TaskOptions.resources
 C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.csproj.GenerateResource.Cache
+C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.exe
+C:\BC\Pracovne\HromadneOperacieNadMS\HromadneOperacieNadMS\obj\Debug\HromadneOperacieNadMS.pdb
