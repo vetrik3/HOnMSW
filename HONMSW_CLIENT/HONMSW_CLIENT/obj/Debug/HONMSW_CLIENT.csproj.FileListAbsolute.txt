@@ -1,0 +1,27 @@
+c:\users\gamer\documents\visual studio 2013\Projects\HONMSW_CLIENT\HONMSW_CLIENT\bin\Debug\HONMSW_CLIENT.exe.config
+c:\users\gamer\documents\visual studio 2013\Projects\HONMSW_CLIENT\HONMSW_CLIENT\bin\Debug\HONMSW_CLIENT.exe
+c:\users\gamer\documents\visual studio 2013\Projects\HONMSW_CLIENT\HONMSW_CLIENT\bin\Debug\HONMSW_CLIENT.pdb
+c:\users\gamer\documents\visual studio 2013\Projects\HONMSW_CLIENT\HONMSW_CLIENT\obj\Debug\HONMSW_CLIENT.exe
+c:\users\gamer\documents\visual studio 2013\Projects\HONMSW_CLIENT\HONMSW_CLIENT\obj\Debug\HONMSW_CLIENT.pdb
+C:\Users\Gamer\documents\visual studio 2013\Projects\HONMSW_CLIENT\HONMSW_CLIENT\obj\Debug\HONMSW_CLIENT.csprojResolveAssemblyReference.cache
+C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HONMSW_CLIENT\HONMSW_CLIENT\bin\Debug\HONMSW_CLIENT.exe.config
+C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HONMSW_CLIENT\HONMSW_CLIENT\obj\Debug\HONMSW_CLIENT.exe
+C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HONMSW_CLIENT\HONMSW_CLIENT\obj\Debug\HONMSW_CLIENT.pdb
+C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HONMSW_CLIENT\HONMSW_CLIENT\bin\Debug\HONMSW_CLIENT.exe
+C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HONMSW_CLIENT\HONMSW_CLIENT\bin\Debug\HONMSW_CLIENT.pdb
+C:\Users\TomasVe\Desktop\HONMS(Ostatne)\HONMSW_CLIENT\HONMSW_CLIENT\obj\Debug\HONMSW_CLIENT.csprojResolveAssemblyReference.cache
+G:\Ucebna08_Nahravky\HONMSW_CLIENT\HONMSW_CLIENT\bin\Debug\HONMSW_CLIENT.exe.config
+G:\Ucebna08_Nahravky\HONMSW_CLIENT\HONMSW_CLIENT\obj\Debug\HONMSW_CLIENT.exe
+G:\Ucebna08_Nahravky\HONMSW_CLIENT\HONMSW_CLIENT\obj\Debug\HONMSW_CLIENT.pdb
+C:\BC\Ucebna08_Nahravky\HONMSW_CLIENT\HONMSW_CLIENT\bin\Debug\HONMSW_CLIENT.exe.config
+C:\BC\Ucebna08_Nahravky\HONMSW_CLIENT\HONMSW_CLIENT\obj\Debug\HONMSW_CLIENT.exe
+C:\BC\Ucebna08_Nahravky\HONMSW_CLIENT\HONMSW_CLIENT\obj\Debug\HONMSW_CLIENT.pdb
+C:\BC\Install\Zdrojové súbory\HONMSW_CLIENT\HONMSW_CLIENT\bin\Debug\HONMSW_CLIENT.exe.config
+C:\BC\Install\Zdrojové súbory\HONMSW_CLIENT\HONMSW_CLIENT\obj\Debug\HONMSW_CLIENT.exe
+C:\BC\Install\Zdrojové súbory\HONMSW_CLIENT\HONMSW_CLIENT\obj\Debug\HONMSW_CLIENT.pdb
+C:\BC\Pracovne\HONMSW_CLIENT\HONMSW_CLIENT\bin\Debug\HONMSW_CLIENT.exe.config
+C:\BC\Pracovne\HONMSW_CLIENT\HONMSW_CLIENT\obj\Debug\HONMSW_CLIENT.exe
+C:\BC\Pracovne\HONMSW_CLIENT\HONMSW_CLIENT\obj\Debug\HONMSW_CLIENT.pdb
+C:\BC\Pracovne\HONMSW_CLIENT\HONMSW_CLIENT\bin\Debug\HONMSW_CLIENT.exe
+C:\BC\Pracovne\HONMSW_CLIENT\HONMSW_CLIENT\bin\Debug\HONMSW_CLIENT.pdb
+C:\BC\Pracovne\HONMSW_CLIENT\HONMSW_CLIENT\obj\Debug\HONMSW_CLIENT.csprojResolveAssemblyReference.cache
